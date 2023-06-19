@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+body{
+    background-image: url(./images/wall2.jpg);
+    background-size: cover;
+}
+
+.layout{
+    background-color: rgba(0, 0,0, 0.2);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background: url(./images/wall2.jpg);
+    background-size: cover;
+    width: 320px;
+    height: auto;
+    text-align: center;
+    padding: 3em 1em;
+    box-shadow: 0 0 50px black;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 0.5em;
+}
+
+.input-holder{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input-holder input{
+    width: 100%;
+    border: none;
+    color: white;
+    background: none;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+    margin: 5px 10px;
+}
+
+.input-holder, .button-holder{
+    display: flex;
+    padding: .5em;
+    margin: 1em;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    float: left;
+    margin: 0em 0.5em 0em 1em;
+}
+
+form button{
+    padding: 1em;
+    margin: 1em;
+    width: 90%;
+    background-color: #3498dbcc;
+    cursor: pointer;
+}
+
+.button-holder{
+    cursor: pointer;
+    width: 8em;
+}
+
+.button-holder button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+p{
+    padding: 0.5em;
+}
+
+p a{
+    color: #2171c9;
+}
